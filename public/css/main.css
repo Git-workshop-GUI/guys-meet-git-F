@@ -4,6 +4,9 @@ body {
     background-color: #FFC;
 }
 
+h1 {font-weight: normal;}
+h1:hover {font-weight: bold;}
+
 li {
     font-size: 20px;
 }

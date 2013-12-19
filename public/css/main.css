@@ -4,7 +4,7 @@ body {
     background-color: #FFC;
 }
 
-h1 {font-weight: normal;}
+h1 {font-weight: normal; font-size: 25px;}
 h1:hover {font-weight: bold;}
 
 li {

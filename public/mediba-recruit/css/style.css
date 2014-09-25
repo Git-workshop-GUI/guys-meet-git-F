@@ -1,0 +1,774 @@
+/* line 17, C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 15, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+body {
+  font-family: "Hiragino Kaku Gothic Pro", Meiryo, "MS PGothic",Helvetica,Arial,Sans-Serif;
+  color: #333333;
+}
+
+/* line 20, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 24, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+.fb_edge_widget_with_comment span.fb_edge_comment_widget {
+  display: none !important;
+}
+
+/* line 27, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+.fb_iframe_widget span {
+  height: 20px;
+  z-index: 0;
+  overflow: hidden;
+}
+
+/* line 29, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+.w_fix {
+  width: 960px;
+  margin: 0 auto;
+}
+
+/* line 34, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+article.solicitation {
+  position: relative;
+  width: 980px;
+  margin: 0 auto;
+  z-index: 1100;
+  text-align: center;
+}
+/* line 40, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+article.solicitation h2 {
+  color: #fff;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 1.25em;
+  text-shadow: 0 0 30px #000;
+  -moz-text-shadow: 0 0 30px #000;
+  -webkit-text-shadow: 0 0 30px #000;
+}
+/* line 49, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+article.solicitation .btn_area {
+  width: 300px;
+  margin: 0 auto;
+  padding: 90px 0 60px;
+}
+/* line 53, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+article.solicitation .btn_area a.entry_btn {
+  display: block;
+  line-height: 60px;
+  border-bottom: 3px solid #0a6962;
+  font-size: 25px;
+  font-weight: normal;
+  color: #fff;
+  background: url("../img/icon_blank.png") 270px center no-repeat #0da69a;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 70, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#entry_top {
+  position: relative;
+  height: 600px;
+  overflow: hidden;
+}
+/* line 75, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#entry_top header {
+  position: relative;
+  width: 980px;
+  height: 97px;
+  margin: 0 auto;
+  z-index: 1200;
+}
+/* line 82, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#entry_top header h1 {
+  position: relative;
+  padding-left: 10px;
+  padding-top: 30px;
+}
+/* line 87, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#entry_top header h1 .baloon {
+  position: absolute;
+  top: 5px;
+  left: 165px;
+  width: 90px;
+  height: 90px;
+  -o-border-radius: 45px;
+  -ms-border-radius: 45px;
+  -webkit-border-radius: 45px;
+  -moz-border-radius: 45px;
+  border-radius: 45px;
+  background: #333333;
+}
+/* line 95, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#entry_top header h1 .baloon span {
+  display: block;
+  text-align: center;
+  line-height: 1.5em;
+  font-size: 12px;
+  color: #fff;
+  padding: 30px 0;
+}
+/* line 103, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#entry_top header h1 .baloon:before {
+  position: absolute;
+  top: 35px;
+  left: -10px;
+  content: "";
+  display: block;
+  float: none;
+  border: 15px solid transparent;
+  border-right-color: #333333;
+  border-top-width: 10px;
+  border-right-width: 15px;
+  border-bottom-width: 10px;
+  border-left-width: 0;
+  width: 0;
+}
+/* line 120, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#entry_top header .sns {
+  position: absolute;
+  top: 40px;
+  right: 0;
+}
+/* line 125, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#entry_top header .sns ul {
+  float: right;
+}
+/* line 127, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#entry_top header .sns ul li {
+  float: left;
+  margin-left: 20px;
+}
+/* line 132, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#entry_top header .sns iframe.twitter-share-button {
+  width: 105px !important;
+}
+/* line 139, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#entry_top article h2 {
+  padding-top: 169px;
+}
+/* line 143, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#entry_top .bg_img {
+  position: absolute;
+  z-index: 1000;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  min-width: 1200px;
+  min-height: 600px;
+}
+
+/* line 155, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#interview {
+  position: relative;
+  height: auto;
+  padding-bottom: 130px;
+  overflow: visible;
+}
+/* line 161, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#interview h2 {
+  padding: 60px 0 65px;
+  font-size: 50px;
+  font-weight: normal;
+  text-align: center;
+}
+/* line 168, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#interview .wrap {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 655px;
+}
+/* line 174, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#interview .hide {
+  display: none;
+}
+/* line 177, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#interview .p_box {
+  position: absolute;
+  width: 300px;
+  min-height: 302px;
+  border-bottom: 2px solid #d6d6d6;
+  background: #f6f6f6;
+  -o-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+}
+/* line 187, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#interview .p_pic {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  -o-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+}
+/* line 196, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#interview .p_pic img {
+  width: 200px;
+}
+/* line 200, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#interview .arrow_right {
+  position: absolute;
+  top: 110px;
+  right: 17px;
+  width: 14px;
+  height: 22px;
+  /*background: url(../img/icon_arrow.png) top left no-repeat;*/
+}
+/* line 208, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#interview .close_btn {
+  display: none;
+  opacity: 0;
+  position: absolute;
+  padding: 10px;
+  background: #0da69a;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+/* line 218, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#interview .p_name {
+  text-align: center;
+  font-size: 18px;
+  padding-top: 20px;
+}
+/* line 222, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#interview .p_name span {
+  display: block;
+  font-size: 14px;
+  padding-bottom: 8px;
+}
+/* line 228, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#interview .detail {
+  float: left;
+  width: 450px;
+  margin-top: 40px;
+  margin-left: 60px;
+}
+/* line 234, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#interview .detail .p_name {
+  text-align: left;
+  font-size: 35px;
+  padding: 0;
+}
+/* line 238, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#interview .detail .p_name span {
+  font-size: 22px;
+}
+/* line 242, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#interview .detail .p_subtitle {
+  display: inline-block;
+  background: #999;
+  color: #fff;
+  -o-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  font-size: 13px;
+  padding: 6px 30px 4px;
+  margin-top: 40px;
+  margin-bottom: 5px;
+}
+/* line 257, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#interview .detail dl.p_history_list {
+  font-size: 13px;
+  line-height: 1.5em;
+  width: auto;
+}
+/* line 262, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#interview .detail dl.p_history_list dt, #interview .detail dl.p_history_list dd {
+  padding: 3px;
+}
+/* line 265, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#interview .detail dl.p_history_list dt {
+  clear: left;
+  float: left;
+  width: 70px;
+}
+/* line 270, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#interview .detail dl.p_history_list dd {
+  margin-left: 70px;
+  padding-bottom: 12px;
+}
+/* line 275, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#interview .detail .p_comment_text {
+  font-size: 13px;
+  line-height: 1.7em;
+}
+/* line 280, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#interview nav {
+  opacity: 0;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  clear: both;
+  background: #fff;
+}
+/* line 290, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#interview nav ul {
+  position: relative;
+  width: auto;
+  height: 130px;
+  border: 1px solid #eee;
+}
+/* line 296, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#interview nav ul li {
+  width: 90px;
+  height: 100px;
+  padding-top: 17px;
+  cursor: pointer;
+}
+/* line 305, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#interview nav ul li .arrow_top {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -6px;
+}
+/* line 311, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#interview nav ul li a {
+  display: block;
+  width: 90px;
+  height: 90px;
+  overflow: hidden;
+  -o-border-radius: 45px;
+  -ms-border-radius: 45px;
+  -webkit-border-radius: 45px;
+  -moz-border-radius: 45px;
+  border-radius: 45px;
+}
+/* line 318, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#interview nav ul li a img {
+  width: 90px;
+}
+/* line 323, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#interview nav ul:before {
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  margin-left: -30px;
+  content: "";
+  border: 30px solid transparent;
+  border-bottom-color: #eee;
+  border-right-width: 30px;
+  border-left-width: 30px;
+  border-top-width: 0;
+  width: 0;
+}
+/* line 336, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#interview nav ul:after {
+  position: absolute;
+  top: -28px;
+  left: 50%;
+  margin-left: -30px;
+  content: "";
+  border: 30px solid transparent;
+  border-bottom-color: #fff;
+  border-right-width: 30px;
+  border-left-width: 30px;
+  border-top-width: 0;
+  width: 0;
+}
+/* line 350, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#interview nav ul .b_01 {
+  position: absolute;
+  top: 10px;
+  left: 62px;
+}
+/* line 355, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#interview nav ul .b_02 {
+  position: absolute;
+  top: 10px;
+  left: 254px;
+}
+/* line 360, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#interview nav ul .b_03 {
+  position: absolute;
+  top: 10px;
+  left: 426px;
+}
+/* line 365, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#interview nav ul .b_04 {
+  position: absolute;
+  top: 10px;
+  left: 618px;
+}
+/* line 370, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#interview nav ul .b_05 {
+  position: absolute;
+  top: 10px;
+  left: 810px;
+}
+/* line 378, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#interview .p_01 {
+  position: absolute;
+  top: 0;
+  left: 120px;
+}
+/* line 383, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#interview .p_02 {
+  position: absolute;
+  top: 0;
+  left: 540px;
+}
+/* line 388, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#interview .p_03 {
+  position: absolute;
+  top: 340px;
+  left: 0px;
+}
+/* line 393, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#interview .p_04 {
+  position: absolute;
+  top: 340px;
+  left: 330px;
+}
+/* line 398, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#interview .p_05 {
+  position: absolute;
+  top: 340px;
+  left: 660px;
+}
+/* line 403, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#interview .p_06 {
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 200px;
+}
+/* line 411, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#interview .p_06 .p_box {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding-bottom: 180px;
+  -o-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  border-bottom: 0;
+}
+/* line 419, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#interview .p_06 .p_box .p_pic {
+  float: left;
+  width: 286px;
+  height: auto;
+  margin-top: 40px;
+  margin-left: 40px;
+  -o-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+}
+/* line 427, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#interview .p_06 .p_box .p_pic img {
+  width: 286px;
+}
+/* line 430, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#interview .p_06 .arrow_right {
+  display: none;
+}
+
+/* line 436, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#guidelines {
+  background: url("../img/bg_pentagon.png") center center;
+  padding-bottom: 120px;
+}
+/* line 440, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#guidelines article {
+  padding-top: 120px;
+}
+/* line 443, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#guidelines article .pic {
+  width: 420px;
+}
+/* line 446, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#guidelines article .text {
+  color: #fff;
+  width: 495px;
+}
+/* line 449, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#guidelines article .text h2 {
+  font-size: 52px;
+  padding-bottom: 40px;
+}
+/* line 453, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#guidelines article .text ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  font-size: 16px;
+}
+/* line 457, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#guidelines article .text ul li {
+  padding-bottom: 20px;
+  line-height: 1.75em;
+}
+/* line 461, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#guidelines article .text ul li b {
+  /*
+  display: inline-block;
+  padding: 0px 5px;
+  margin: 0 0.25em;
+  background: #1269a3;
+  */
+}
+/* line 469, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#guidelines article .text ul li a {
+  display: inline-block;
+  text-decoration: underline;
+  color: #ffffff;
+  font-weight: normal;
+  margin: 0 0.5em;
+  padding: 0 0 0 0;
+  /*background: url("../img/icon_blank.png") left center no-repeat;*/
+}
+/* line 478, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#guidelines article .text ul li a:hover {
+  text-decoration: none;
+}
+/* line 486, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#guidelines article:after {
+  content: "";
+  overflow: hidden;
+  clear: both;
+  display: block;
+}
+/* line 493, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#guidelines article:nth-child(even) .pic {
+  float: right;
+}
+/* line 496, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#guidelines article:nth-child(even) .text {
+  float: left;
+}
+/* line 501, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#guidelines article:nth-child(odd) .pic {
+  float: left;
+}
+/* line 504, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#guidelines article:nth-child(odd) .text {
+  float: right;
+}
+/* line 509, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#guidelines article.m_style {
+  float: none;
+  clear: both;
+}
+/* line 513, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#guidelines article.m_style .text {
+  float: none;
+  width: auto;
+}
+/* line 517, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#guidelines article.m_style .text h2 {
+  text-align: center;
+}
+/* line 521, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#guidelines article.m_style .text p {
+  line-height: 1.75em;
+}
+/* line 525, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#guidelines article.m_style .environment {
+  overflow: hidden;
+  padding-top: 40px;
+  margin-left: -25px;
+}
+/* line 530, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#guidelines article.m_style .environment > div {
+  width: 465px;
+  height: 200px;
+  background: #fff;
+  margin-left: 25px;
+  margin-bottom: 25px;
+  -o-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+/* line 542, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#guidelines article.m_style .environment > div h3 {
+  font-size: 25px;
+  text-align: center;
+  color: #0b897f;
+  padding: 25px 0 30px;
+}
+/* line 548, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#guidelines article.m_style .environment > div ul {
+  margin: 0;
+  text-align: center;
+}
+/* line 551, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#guidelines article.m_style .environment > div ul li {
+  display: inline-block;
+  list-style-type: disc;
+  margin: 0 15px;
+  padding: 0;
+}
+/* line 556, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#guidelines article.m_style .environment > div ul li img {
+  vertical-align: center;
+}
+/* line 562, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#guidelines article.m_style .environment > div:nth-child(even) {
+  float: right;
+}
+/* line 565, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#guidelines article.m_style .environment > div:nth-child(odd) {
+  float: left;
+}
+/* line 569, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#guidelines article.m_style .environment > div.tools {
+  width: auto;
+  float: none;
+  clear: both;
+}
+
+/* line 579, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#entry_bottom {
+  position: relative;
+  height: 400px;
+  overflow: hidden;
+}
+/* line 584, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#entry_bottom header {
+  position: relative;
+  width: 980px;
+  margin: 0 auto;
+  z-index: 1100;
+}
+/* line 590, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#entry_bottom article {
+  position: relative;
+  width: 980px;
+  margin: 0 auto 0;
+  z-index: 1200;
+}
+/* line 595, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#entry_bottom article h2 {
+  padding-top: 120px;
+}
+/* line 599, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+#entry_bottom .bg_img {
+  position: absolute;
+  z-index: 1000;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  min-width: 1200px;
+  min-height: 400px;
+}
+
+/* line 611, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+footer {
+  height: 100px;
+  background: #111111;
+  color: #fff;
+  font-size: 12px;
+}
+/* line 617, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+footer .logo {
+  float: left;
+  padding-top: 30px;
+}
+/* line 622, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+footer ul {
+  float: right;
+  padding-top: 45px;
+}
+/* line 625, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+footer ul li {
+  float: left;
+  margin-left: 20px;
+}
+/* line 628, C:/Users/kotani/Documents/works/07_mediba-recruit/html/scss/style.scss */
+footer ul li a {
+  padding: 0 0 0 12px;
+  color: #fff;
+  background: url("../img/icon_arrow_w.png") left center no-repeat;
+}
